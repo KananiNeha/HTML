@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission From</title>
+    <link rel="icon" href="image/logo.png">
+</head>
+<body>
+   <center><h1>Speed Computers</h1></center><hr>
+    <form action="img2.html" method="POST">
+        <center>
+            <table>
+                <tr>
+                    <td><img src="image/logo.png" width="100px"></td>
+                    <td colspan="3"><h2>Addmission From</h2></td>
+                </tr>
+                <tr>
+                    <td>Frist Name:</td>
+                    <td><input type="text" autofocus></td>
+                    <td>Last Name:</td>
+                    <td><input type="text" autocomplete="on"></td>
+                </tr>
+                <tr>
+                    <td>Father's Name:</td>
+                    <td colspan="3"><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td colspan="3">
+                        <textarea name="add"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="Enter Your Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Student Mo.:</td>
+                    <td><input type="text" min="5" max="15"></td>
+                    <td>Perent's Mo.:</td>
+                    <td><input type="text" minlength="3" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth:</td>
+                    <td><input type="date" min="1995-01-15" max="2025-01-01"></td>
+                    <td>Gender:</td>
+                    <td><input type="radio">Male
+                    <input type="radio">Female</td>
+                </tr>
+                <tr>
+                    <td>School/Collage:</td>
+                    <td><input type="text"></td>
+                    <td>Year:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="county_code">Country code:</label></td>
+                    <td>
+                        <input type="text" id="country_code" name="country_code" pattern="[A-Za-Z]{3}" title="Three latter country code">
+                    </td>
+                    <td><label for="county_code">City:</label></td>
+                    <td>
+                        <select>
+                            <option value="Select City">Select City</option>
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Ahemdabad">Ahemdabad</option>
+                            <option value="surat">Surat</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Designation:</td>
+                    <td><input type="url"></td>
+                </tr>
+                <tr>
+                    <td>Course Name:</td>
+                    <td><input list="course" name="course">
+                        <datalist id="course">
+                            <option value="CCC">
+                            <option value="Graphic Design">
+                            <option value="Web Development">
+                            <option value="Programming C">
+                            <option value="Tally & Miracle">
+                        </datalist>
+                    </td>
+                    <td>Batch Time:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Course Duration</td>
+                    <td><input type="text"></td>
+                    <td>Attached Document No:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Select Image:</td>
+                    <td><input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><input type="submit" value="Save" formtarget="_blank"><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
